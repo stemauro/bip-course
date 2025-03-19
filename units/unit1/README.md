@@ -8,7 +8,6 @@
 | Clusters 101                      |🗓️ Planned| <ul><li>Workings of a compute cluster.</li><li>Environment modules and pakcaged dependencies.</li><li>Partitions.</li><li>The `.local`, `.cache`, and `.config` hidden folders.</li></ul>| 
 | Access to JURECA                  |🗓️ Planned| <ul><li>Compute projects.</li><li>JuDoor.</li><li>Jupyter-JSC</li></ul> |
 | Environment configuration         |🗓️ Planned| <ul><li>Python virtual environment.</li><li>Jupyter custom kernel.</li><li>Paths and commands cheatsheet.</li></ul>|
-| Distributed Deep Learning         |🗓️ Planned| <ul><li>Python virtual environment.</li><li>Jupyter custom kernel.</li><li>Paths and commands cheatsheet.</li></ul>|
 
 ## HPC 101
 
@@ -39,7 +38,3 @@
 - [ ] Check all is working
 - [ ] ...
 
-## Distributed Deep Learning
-- [ ] Short intro to training a neural network (🤔)
-- [ ] PyTorch DDP
-- [ ] Reference other DDL strategies (🔗 [Ultrascale Playbook by Nanotron](https://huggingface.co/spaces/nanotron/ultrascale-playbook))
