@@ -9,9 +9,6 @@
 | Pretraining at scale on Jureca    |🗓️ Planned| <ul><li>Implementation of a common SSL method of choice.</li><li>Custom dataloader.</li><li>Distributed training.</li></ul> |
 | Finetuning on Jureca  (part. 1)   |🗓️ Planned| <ul><li>Implementation of a classification head.</li><li>Custom dataloader.</li><li>Evaluation.</li></ul>|
 
-
-
-
 ## Distributed Deep Learning
 - [ ] Short intro to training a neural network (🤔)
 - [ ] PyTorch DDP
@@ -31,5 +28,4 @@
 
 ## Finetuning on Jureca  (part. 1) 
 
-- [ ] Pytorch DDP from-scratch implementation of a classification head (🤔)
 - [ ] Custom dataloader implementation (🤔)
