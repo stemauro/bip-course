@@ -1,0 +1,25 @@
+# - title: Unit 0. Welcome to the course
+#   ## Uncomment after talking to Gabriele.
+#   # sections:
+#   # - local: unit0/introduction
+#   #   title: Welcome to the course 🤗
+#   # - local: unit0/onboarding
+#   #   title: Onboarding
+#   # - local: unit0/discord101
+#   #   title: (Optional) Discord 101
+- title: Unit0. Introduction to High-Performance Computing (HPC) for Large-Scale EO Applications
+  sections:
+  - local: unit0/README
+    title: Introduction to High-Performance Computing (HPC) for Large-Scale EO Applications
+- title: Unit 1. Setting up an interactive HPC environment with Jupyter-JSC
+  sections:
+  - local: unit1/README
+    title: Setting up an interactive HPC environment with Jupyter-JSC
+- title: Unit 2. Distributed Deep Learning on GPU-Based Clusters
+  sections:
+  - local: unit2/README
+    title: Distributed Deep Learning on GPU-Based Clusters
+- title: Unit 3. Large-Scale Deep Learning with HPC for EO
+  sections:
+  - local: unit3/README
+    title: Large-Scale Deep Learning with HPC for EO
