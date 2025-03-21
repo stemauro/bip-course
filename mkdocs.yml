@@ -1,13 +1,12 @@
 nav:
   - Home: 'index.md'
-  - HPC for EO: 'unit0/README.md'
-  - System and infrastructure at JSC: 'unit1/README.md'
-  - Distributed Deep Learning: 'unit2/README.md'
-  - Geospatian FMs finetuning: 'unit3/README.md'
+  - HPC for EO: 'units/unit0/README.md'
+  - System and infrastructure at JSC: 'units/unit1/README.md'
+  - Distributed Deep Learning: 'units/unit2/README.md'
+  - Geospatian FMs finetuning: 'units/unit3/README.md'
 
 # Project information
 site_name: BIP Course Docs
-docs_dir: units
 
 # Configuration
 theme:
