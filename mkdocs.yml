@@ -15,6 +15,7 @@ theme:
     scheme: bip
   font:
     text: Source Sans 3
+    code: DM Mono
   logo: assets/computer.png
   favicon: assets/computer.png
 extra_css:
@@ -24,3 +25,10 @@ extra_css:
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

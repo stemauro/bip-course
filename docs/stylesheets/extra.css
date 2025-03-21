@@ -8,16 +8,69 @@
     --md-default-bg-color:        #0e1117;
     --md-footer-bg-color:         #0e1117;
     --md-default-fg-color--light: #bbc4d2;
-    --md-typeset-table-color:     #3a3e45;
-    /* --md-primary-bg-color--light: #ECB7B7; */
+    --md-typeset-table-color:     #1c212e;
+    --md-code-fg-color:           #a8b1bf;
+    --md-code-bg-color:           #111622;
+    --md-code-hl-name-color: #e5e7eb;
+    --md-code-hl-punctuation-color:   #a8b1bf;
+    --md-code-hl-keyword-color:     #c4b4ff;
+    --md-code-hl-string-color: #e3cb6b;
+    --md-code-hl-operator-color: #e5e7eb;
+    --md-code-hl-number-color: #e5e7eb;
+    --md-code-hl-function-color: #d8f999;
+    --md-code-hl-constant-color: #e5e7eb;
+    --md-code-hl-comment-color: #424e60;
+    --md-code-hl-class-color: #024dbe;
   }
 
-  .md-header__button.md-logo {
-    margin: 0;
-    padding: 0;
+.md-typeset a {
+  text-decoration: underline;
+}
+
+.md-header__button.md-logo {
+  margin: 0;
+  padding: 0;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
   height: 2.1rem;
   width: 2.2rem;
 }
+
+/* See: https://github.com/squidfunk/mkdocs-material/issues/175#issuecomment-616694465 */
+.md-typeset__table {
+  min-width: 100%;
+}
+.md-typeset table:not([class]) {
+  display: table;
+}
+.md-typeset table td, .md-typeset table th {
+  font-size: 1.1em;
+}
+
+/* Code */
+.md-typeset pre {
+  border-radius: 4px;
+  border: 1px solid #1c212e;
+  font-size: 1em;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  border: 1px solid #1c212e;
+}
+
+.highlight .k {
+  font-style: italic;
+}
+
+.highlight .kn {
+  font-style: italic;
+}
+
+.highlight .nn {
+  color: #d8f999 !important;
+}
+
+
+
