@@ -1,4 +1,4 @@
- <div style="text-align:center"><img src="assets/computer.png" width="200" height=200><img src="assets/earth.png" width="200" height=200></div>
+ <div style="text-align:center"><img src="docs/assets/computer.png" width="200" height=200><img src="docs/assets/earth.png" width="200" height=200></div>
 
  # Large-scale Deep Learning with High-Performance Comptuing for Earth Observation
 
