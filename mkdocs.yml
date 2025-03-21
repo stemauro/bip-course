@@ -11,6 +11,14 @@ site_name: BIP Course Docs
 # Configuration
 theme:
   name: material
+  palette:
+    scheme: bip
+  font:
+    text: Source Sans 3
+  logo: assets/computer.png
+  favicon: assets/computer.png
+extra_css:
+  - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
