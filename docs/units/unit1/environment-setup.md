@@ -2,16 +2,16 @@
 
 ## TODO
 
-- [ ] Adapt `setup.sh` script
-    - [ ] Export paths and env variables
-    - [ ] Install `uv`
-    - [ ] Load modules
-    - [ ] Install env via `uv`
-    - [ ] Test env
-- [ ] Adapt `activate` script
-- [ ] Adapt `kernel.sh` script
+- [x] Adapt `setup.sh` script
+    - [x] Export paths and env variables
+    - [x] Install `uv`
+    - [x] Load modules
+    - [x] Install env via `uv`
+    - [x] Test env
+- [x] Adapt `activate` script
+- [x] Adapt `kernel.sh` script
 - [ ] Adapt `vscode.sh` script (low priority)
-- [ ] Write environment testing script(s)
+- [x] Write environment testing script(s)
 
 ## Steps
 - clone repository
@@ -23,15 +23,10 @@ bash scripts/setup.sh
 
 - activate environment for test
 ```shell
-source scripts/activate
+source scripts/activate.sh
 ```
 
 - link a Jupyter kernel to the environment
 ```shell
 bash scripts/kernel.sh
-```
-
-- test kernel
-```shell
-echo 'okay!'
 ```
