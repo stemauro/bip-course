@@ -1,6 +1,8 @@
- <div style="text-align:center"><img src="docs/assets/computer.png" width="200" height=200><img src="docs/assets/earth.png" width="200" height=200></div>
-
- # Large-scale Deep Learning with High-Performance Comptuing for Earth Observation
+<div align="center">
+    <img src="docs/assets/computer.png" width="200" height=200>
+    <img src="docs/assets/earth.png" width="200" height=200>
+    <h1>Large-scale Deep Learning with High-Performance Comptuing for Earth Observation</h1>
+</div>
 
 This repository hosts the support material of the „*Large-Scale Deep Learning with HPC for Earth Observation*“ mini-course offered by the University of Iceland as part of the 2025 [Blended Intensive Program](https://internazionale.unipv.eu/it/machine-learning-for-earth-observation-and-data-fusion/) online segment.
 
