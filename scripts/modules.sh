@@ -5,4 +5,3 @@ module load Python
 module load PyTorch
 module load torchvision
 module load Pillow-SIMD
-module load SciPy-Stack
