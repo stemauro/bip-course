@@ -28,7 +28,7 @@ if ! [[ -d "${VENV_DIR}" ]]; then
     # 2. Create an virtual environment referencing the
     # system modules already loaded       
     uv venv --system-site-packages "${VENV_DIR}"
-    ln -s "${VENV_DIR}" "${PROJECT_DIR}/.venv"
+    ln --symbolic "${VENV_DIR}" "${PROJECT_DIR}/.venv"
 
     # 3. Activate the freshly created virtual environment
     if [[ ! (-f "${VENV_DIR}/bin/activate") ]]; then
@@ -51,7 +51,7 @@ if ! [[ -d "${VENV_DIR}" ]]; then
     if [[ ! (-f "${PROJECT_DIR}/pyproject.toml") ]]; then
         uv init --bare .
     fi
-    uv add --active -r "$PROJECT_DIR"/requirements.txt
+    uv add --active --requirements "$PROJECT_DIR"/requirements.txt
 
     # 5. Clean up and exit
     deactivate
