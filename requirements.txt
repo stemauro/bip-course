@@ -1,4 +1,5 @@
 ipykernel
+ipywidgets
 matplotlib
-rasterio
+rioxarray
 wandb
