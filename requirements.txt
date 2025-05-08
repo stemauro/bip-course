@@ -1,5 +1,8 @@
-ipykernel
+einops
 ipywidgets
-matplotlib
+ipykernel
+joblib
 rioxarray
+safetensors
 wandb
+webdataset
