@@ -25,6 +25,6 @@ NORMALFONT=$(tput sgr0)
 # Utility functions
 activate_environment () {
     source "${VENV_DIR}/bin/activate"
-    pyv="$(python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')"
-    export PYTHONPATH="${VENV_DIR}/lib/python${pyv}/site-packages:${PYTHONPATH}"
+    # pyv="$(python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')"
+    # export PYTHONPATH="${VENV_DIR}/lib/python${pyv}/site-packages:${PYTHONPATH}"
 }

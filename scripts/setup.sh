@@ -51,7 +51,7 @@ if ! [[ -d "${VENV_DIR}" ]]; then
     if [[ ! (-f "${PROJECT_DIR}/pyproject.toml") ]]; then
         uv init --bare .
     fi
-    uv add --active --requirements "$PROJECT_DIR"/requirements.txt
+    uv add --active --no-managed-python --requirements "$PROJECT_DIR"/requirements.txt
 
     # 5. Clean up and exit
     deactivate
