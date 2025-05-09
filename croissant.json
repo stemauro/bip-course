@@ -1,0 +1,151 @@
+{
+    "@context": [
+      "https://mlcommons.org/croissant/1.0/context",
+      {
+        "sc": "https://schema.org/",
+        "cr": "https://mlcommons.org/croissant/1.0/"
+      }
+    ],
+    "@type": "sc:Dataset",
+    "name": "Unlabeled Sentinel 2 time series dataset (training, T30TYQ)",
+    "description": "A subset of the Sentinel 2 (S2) L2A dataset composed of patch time series acquired over France, used to pretrain U-BARN. Each patch contains 10 bands and 3 masks. See https://hal.science/hal-04084839 for details.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "url": "https://zenodo.org/records/7890542",
+    "keywords": [
+      "Remote Sensing",
+      "Sentinel-2",
+      "Satellite Imagery",
+      "Time Series",
+      "France"
+    ],
+    "creator": [
+      {
+        "@type": "sc:Organization",
+        "name": "CESBIO - Centre d'études spatiales de la biosphère"
+      }
+    ],
+    "datePublished": "2023-05-04",
+    "distribution": [
+      {
+        "@type": "cr:FileObject",
+        "@id": "T30TYQ.zip",
+        "name": "T30TYQ.zip",
+        "contentUrl": "https://zenodo.org/record/7890542/files/T30TYQ.zip",
+        "encodingFormat": "application/zip"
+      }
+    ],
+    "spatialCoverage": {
+      "@type": "sc:Place",
+      "geo": {
+        "@type": "sc:GeoShape",
+        "box": "43.0 -1.0 44.0 0.0"
+      },
+      "description": "Sentinel-2 tile T30TYQ, France"
+    },
+    "temporalCoverage": "2018-01-01/2020-12-31",
+    "funder": [
+      {
+        "@type": "sc:Organization",
+        "name": "Agence Nationale de la Recherche",
+        "award": "ANR-20-CE23-0003"
+      }
+    ],
+    "citation": [
+      {
+        "@type": "sc:CreativeWork",
+        "name": "DeepChange – Deep generative models for detecting land cover changes from satellite image times series",
+        "url": "https://hal.science/hal-04084839"
+      }
+    ],
+    "recordSet": [
+      {
+        "@type": "cr:RecordSet",
+        "name": "sentinel2_patches",
+        "description": "Sentinel-2 time series patches with 10 bands (B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12) and 3 masks (CLM_R1, EDG_R1, SAT_R1).",
+        "field": [
+          {
+            "@type": "cr:Field",
+            "name": "B2",
+            "description": "Sentinel-2 Band 2 (Blue)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B3",
+            "description": "Sentinel-2 Band 3 (Green)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B4",
+            "description": "Sentinel-2 Band 4 (Red)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B5",
+            "description": "Sentinel-2 Band 5 (Red Edge 1)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B6",
+            "description": "Sentinel-2 Band 6 (Red Edge 2)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B7",
+            "description": "Sentinel-2 Band 7 (Red Edge 3)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B8",
+            "description": "Sentinel-2 Band 8 (NIR)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B8A",
+            "description": "Sentinel-2 Band 8A (Narrow NIR)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B11",
+            "description": "Sentinel-2 Band 11 (SWIR 1)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "B12",
+            "description": "Sentinel-2 Band 12 (SWIR 2)",
+            "dataType": "sc:Number"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "CLM_R1",
+            "description": "Cloud mask",
+            "dataType": "sc:Integer"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "EDG_R1",
+            "description": "Edge mask",
+            "dataType": "sc:Integer"
+          },
+          {
+            "@type": "cr:Field",
+            "name": "SAT_R1",
+            "description": "Saturation mask",
+            "dataType": "sc:Integer"
+          }
+        ],
+        "source": {
+          "fileObject": { "@id": "T30TYQ.zip" }
+        }
+      }
+    ]
+  }
+  
