@@ -12,3 +12,8 @@ dependencies = [
     "wandb>=0.19.10",
     "webdataset>=0.2.111",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.9",
+]

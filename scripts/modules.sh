@@ -6,3 +6,4 @@ module load SciPy-Stack
 module load PyTorch
 module load torchvision
 module load tqdm
+module load PyYAML
