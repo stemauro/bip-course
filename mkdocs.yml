@@ -1,7 +1,10 @@
 nav:
   - Home: 'index.md'
   - HPC for EO: 'units/unit0/README.md'
-  - System and infrastructure at JSC: 'units/unit1/README.md'
+  - System and infrastructure at JSC: 
+    - Plan: 'units/unit1/README.md'
+    - User account: 'units/unit1/user-account-setup.md'
+    - Virtual environment: 'units/unit1/environment-setup.md'
   - Distributed Deep Learning: 'units/unit2/README.md'
   - Geospatian FMs finetuning: 'units/unit3/README.md'
 
