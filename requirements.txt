@@ -1,8 +1,11 @@
 einops
+gdown
 ipywidgets
 ipykernel
 joblib
 rioxarray
 safetensors
+tensorboard
+terratorch==1.0.1
 wandb
 webdataset
