@@ -3,7 +3,7 @@ seed_everything: 1337
 trainer:
   accelerator: cuda
   strategy: auto
-  devices: 2
+  devices: 4
   num_nodes: 1
   precision: bf16-mixed
   logger: true
