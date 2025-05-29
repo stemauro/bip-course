@@ -207,3 +207,4 @@ pyrightconfig.json
 
 # Custom paths
 scripts/secrets.sh
+notebooks/agb-solution.ipynb
