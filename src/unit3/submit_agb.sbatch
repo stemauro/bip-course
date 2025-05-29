@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #SBATCH --account=training2504
-#SBATCH --partition=dc-gpu
+#SBATCH --partition=dc-gpu-devel
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=8
@@ -9,8 +9,8 @@
 #SBATCH --threads-per-core=1
 #SBATCH --time=00:15:00
 # Slurm logs destination path
-#SBATCH --output="${HOME}/bip-course/slurm-%j.out"
-#SBATCH --error="${HOME}/bip-course/slurm-%j.err"
+#SBATCH --output=/p/home/jusers/maurogiovanni1/jureca/bip-course/slurm-%j.out
+#SBATCH --error=/p/home/jusers/maurogiovanni1/jureca/bip-course/slurm-%j.err
 
 project_root_dir="${HOME}/bip-course/bip"
 cd "${project_root_dir}"
@@ -35,5 +35,5 @@ export NCCL_SOCKET_IFNAME=ib0
 # Prevent Gloo not being able to communicate.
 export GLOO_SOCKET_IFNAME=ib0
 
-config_file_path="${project_root_dir}/configs/multicrop.yaml"
+config_file_path="${project_root_dir}/configs/agb.yaml"
 srun env -u CUDA_VISIBLE_DEVICES terratorch fit --config "${config_file_path}"
